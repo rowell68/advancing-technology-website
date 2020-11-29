@@ -283,4 +283,70 @@ footer {
     padding: 8px 20px;
     border-radius: 6px;
 } 
+/******* MEDIA QUERIES *******/
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    section#expectations {
+        margin-bottom: 20px;
+    }
+
+    section#expectations strong {
+        font-size: 26px;
+    }
+
+    section#expectations ul {
+      display: block;
+    }
+
+    section#expectations ul li {
+      margin-bottom: 10px;
+    }
+
+    section#three-points h3 {
+        margin: 0;
+    }
+
+    section#three-points .three-points-section:first-child img, section#three-points .three-points-section:last-child img {
+        margin: 0;
+    }
+
+    section#three-points .three-points-section:nth-child(2) img {
+        float: right;
+    }
+
+    .three-points-section {
+        min-height: 450px;
+    }
+
+    .three-points-section img {
+        width: 200px;
+    }
+
+
+    .speaker-column-1, .speaker-column-2 {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .speaker {
+        padding: 0 40px;
+    }
+
+    .speaker-image img {
+        margin: 0;
+    }
+}
 
